@@ -10,11 +10,11 @@
 		713CF9A31FE54EDB0074A9EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CF9A21FE54EDB0074A9EC /* AppDelegate.swift */; };
 		713CF9A51FE54EDB0074A9EC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CF9A41FE54EDB0074A9EC /* ViewController.swift */; };
 		713CF9A81FE54EDB0074A9EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713CF9A61FE54EDB0074A9EC /* Main.storyboard */; };
-		713CF9AA1FE54EDB0074A9EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 713CF9A91FE54EDB0074A9EC /* Assets.xcassets */; };
 		713CF9AD1FE54EDB0074A9EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 713CF9AB1FE54EDB0074A9EC /* LaunchScreen.storyboard */; };
 		713CF9B61FE54F1B0074A9EC /* PlayingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CF9B51FE54F1B0074A9EC /* PlayingCard.swift */; };
 		713CF9B81FE552770074A9EC /* PlayingCardDeck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CF9B71FE552770074A9EC /* PlayingCardDeck.swift */; };
 		713CF9BA1FE670140074A9EC /* PlayingCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713CF9B91FE670140074A9EC /* PlayingCardView.swift */; };
+		715C92431FE6E371007C011E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 715C92421FE6E371007C011E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,12 +22,12 @@
 		713CF9A21FE54EDB0074A9EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		713CF9A41FE54EDB0074A9EC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		713CF9A71FE54EDB0074A9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		713CF9A91FE54EDB0074A9EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		713CF9AC1FE54EDB0074A9EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		713CF9AE1FE54EDB0074A9EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		713CF9B51FE54F1B0074A9EC /* PlayingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCard.swift; sourceTree = "<group>"; };
 		713CF9B71FE552770074A9EC /* PlayingCardDeck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardDeck.swift; sourceTree = "<group>"; };
 		713CF9B91FE670140074A9EC /* PlayingCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingCardView.swift; sourceTree = "<group>"; };
+		715C92421FE6E371007C011E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +60,10 @@
 		713CF9A11FE54EDB0074A9EC /* playing-card */ = {
 			isa = PBXGroup;
 			children = (
+				715C92421FE6E371007C011E /* Assets.xcassets */,
 				713CF9B41FE54EF00074A9EC /* Sypporting Files */,
 				713CF9A41FE54EDB0074A9EC /* ViewController.swift */,
 				713CF9A61FE54EDB0074A9EC /* Main.storyboard */,
-				713CF9A91FE54EDB0074A9EC /* Assets.xcassets */,
 				713CF9AE1FE54EDB0074A9EC /* Info.plist */,
 				713CF9B51FE54F1B0074A9EC /* PlayingCard.swift */,
 				713CF9B71FE552770074A9EC /* PlayingCardDeck.swift */,
@@ -141,7 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				713CF9AD1FE54EDB0074A9EC /* LaunchScreen.storyboard in Resources */,
-				713CF9AA1FE54EDB0074A9EC /* Assets.xcassets in Resources */,
+				715C92431FE6E371007C011E /* Assets.xcassets in Resources */,
 				713CF9A81FE54EDB0074A9EC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
